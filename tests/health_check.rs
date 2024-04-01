@@ -20,10 +20,6 @@ async fn health_check_works() {
 
 // 백그라운드에서 application 구동.
 async fn spawn_app() -> std::io::Result<()> {
-<<<<<<< HEAD
     // todo!() // 문제 발생 -> 테스트 실패.
     zero2prod::run().await // await -> 무한 대기, 반환 X
-=======
-    todo!()
->>>>>>> 62984f4d319e51d88ec37690026cb0876de821d3
 }
